@@ -73,5 +73,5 @@ Save a JSON file and pass it with --utm-config if you have a UTM naming conventi
 }
 
 Re-run for fresh checks
-
-Site content changes frequently; re-run the same command to get an updated audit. Each run writes timestamped output files so previous results are preserved.
+License
+MIT — use it, adapt it, ship it.
