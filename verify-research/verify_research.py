@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-verify_citations.py — check every claim and citation in a piece of AI (or
+verify_research.py — check every claim and citation in a piece of AI (or
 human) research writing against the actual sources they cite.
 
 WHY THIS EXISTS
@@ -50,7 +50,7 @@ only if a document or source is a .pdf — the rest are always required.)
 USAGE
 -----
     export ANTHROPIC_API_KEY=sk-...
-    python verify_citations.py report.md --sources acme_report.md \\
+    python verify_research.py report.md --sources acme_report.md \\
         --output verification_report.md
 
 Run with --help for the full flag list.
