@@ -1,6 +1,6 @@
 # GTM Agentic Skills
 
-AI skills for GTM teams, mostly ABM.
+AI skills for marketing with a focus on account-based-marketing specific strategies.
 
 ## Usage
 
@@ -8,7 +8,7 @@ Each skill's own README has its setup and options. Run the script, or, if it gen
 
 ## How these work
 
-Most generate plain text (a prompt, a checklist, a report) instead of calling an AI API directly, so they work with any AI tool. Where there's a checkable answer, a script computes it instead of guessing. Nothing auto-applies, you review and accept or reject every flag or draft.
+Most generate plain text (a prompt, a checklist, a report) instead of calling an AI API directly, so they work with any AI tool.
 
 ## Requirements
 
