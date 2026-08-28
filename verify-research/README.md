@@ -1,7 +1,5 @@
 # verify-citations
 
-AI is genuinely good at research synthesis — it can read fast and summarize faster. What it's bad at is telling you when it's wrong: a hallucinated statistic gets stated with exactly the same confident tone as a real one, and a citation sitting next to a claim isn't proof the claim is true. It might be the right source paraphrased sloppily, the wrong source entirely, or a source that never actually gets checked.
-
 `verify_citations.py` does what a careful editor would do before a piece runs: it takes every claim and citation in a document, goes back to the **actual source**, and checks whether that source really says what's being claimed. Anything it can't confirm gets flagged instead of quietly passed through.
 
 It works with whatever AI backend you have access to — Claude, OpenAI, or any OpenAI-compatible API (including local models) — see [Providers](#providers) below.
