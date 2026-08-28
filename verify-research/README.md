@@ -1,9 +1,5 @@
 # verify-citations
 
-`verify_citations.py` does what a careful editor would do before a piece runs: it takes every claim and citation in a document, goes back to the **actual source**, and checks whether that source really says what's being claimed. Anything it can't confirm gets flagged instead of quietly passed through.
-
-It works with whatever AI backend you have access to — Claude, OpenAI, or any OpenAI-compatible API (including local models) — see [Providers](#providers) below.
-
 ## What it does
 
 1. **Extracts** every checkable claim from your document — statistics, dates, quotes, specific factual assertions — along with whatever citation was attached to each one.
